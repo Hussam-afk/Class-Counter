@@ -1,0 +1,92 @@
+body {
+    background-image: url(https://www.photos-public-domain.com/wp-content/uploads/2011/12/sky-at-sunrise.jpg);
+    background-size: cover;
+    font-family: Arial, sans-serif; /* Adds a default font for better readability */
+    font-weight: bold;
+    text-align: center;
+    height: 100vh; /* Ensures the body takes full height of the viewport */
+
+}
+.container {
+    background: rgba(241, 206, 240, 0.37);
+    max-width: 80%;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 2.5rem; /* Adjust the size of the main heading */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 2rem; /* Adjust the size of the sub-heading */
+    color: white; /* Ensures the sub-heading is visible against the background */
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+/* Style for aligning the buttons in rows */
+.button-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px; /* Adds space between the rows */   
+    padding: 15px 30px; /* Increases the size of the buttons */
+    font-size: 1rem; /* Ensures the text inside the buttons is readable */
+
+}
+.button-row button {
+    margin: 0 10px; /* Adds space between the buttons */
+}
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#increment-btn {
+    background: darkred;
+    cursor: pointer;
+
+}
+
+#save-btn {
+    background: darkgreen;
+    cursor: pointer;
+
+
+}
+#reset {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+
+#delete {
+    background-color: yellow;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+#desk {
+    background-color: rosybrown;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 1px solid black;
+}
